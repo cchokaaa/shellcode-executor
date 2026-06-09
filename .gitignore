@@ -1,0 +1,50 @@
+# ── Build Artifacts ──
+build/
+bin/
+obj/
+lib/
+
+# ── IDE Files ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS Files ──
+.DS_Store
+Thumbs.db
+
+# ── Coverage ──
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# ── Documentation ──
+docs/html/
+docs/latex/
+
+# ── Compiled Objects ──
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# ── CMake ──
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Temp Files ──
+*.tmp
+*.bak
+*.log
